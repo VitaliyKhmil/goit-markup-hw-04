@@ -87,14 +87,12 @@ padding-top: 24px;
 padding-bottom: 25px;
 border-bottom: 1px solid #ECECEC;
    }
-
 .header-item{
 margin-right: 50px;
 }
 .header-item:last-child{
     margin: 0;
 }
-
 .header-link {
 font-weight: 500;
 font-size: 14px;
@@ -104,7 +102,6 @@ color: var(--main-title-color);
 display: inline block;
 padding: 30px 0;
 }
-
 .header-link:hover,
 .header-link:focus {
 ont-weight: 500;
@@ -117,18 +114,18 @@ padding: 30px 0;
 }
 .header-tel-item{
     margin-right: 50px;
+    display: flex;
 }
-
 .header-tel-link {
 font-weight: 500;
 font-size: 14px;
 line-height: 1.14;
 letter-spacing: 0.02em;
 color: var(--first-text-color);
-display: inline block;
+display: flex;
+justify-content: center;
 padding: 30px 0;
 }
-
 .header-tel-link:hover,
 .header-tel-link:focus {
 display: inline block;
@@ -139,7 +136,6 @@ line-height: 1.14;
 letter-spacing: 0.02em;
 color: var(--accent-color)
 }
-
 .header-tel-link:hover .icon-envelope{
     fill: var(--accent-color);
 }
@@ -149,12 +145,17 @@ color: var(--accent-color)
 .header-tel li:last-child{
     margin-right: 0;
 }
-
 .icon-smartphone{
     width: 10px;
     height: 16px;
+    margin-right: 10px;
 }
-
+.icon-envelope{
+    margin-right: 10px;
+}
+.header-connect{
+    display: flex;
+}
 
 /*-------------------- hero------------------------ */
 .hero {
